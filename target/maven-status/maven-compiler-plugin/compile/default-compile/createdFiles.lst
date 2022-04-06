@@ -1,7 +1,10 @@
 Promocion.class
 TipoPrenda.class
+Tarjeta.class
 Prenda.class
 TipoDePago.class
 Venta.class
 Nueva.class
+EstadoPrenda.class
 Liquidacion.class
+Item.class

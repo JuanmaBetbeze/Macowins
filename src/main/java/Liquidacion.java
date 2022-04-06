@@ -1,10 +1,8 @@
-public class Liquidacion implements Prenda{
+public class Liquidacion implements EstadoPrenda {
   Double precioBase;
-  TipoPrenda tipoPrenda;
 
-  public Liquidacion(Double precioBase, TipoPrenda tipoPrenda) {
+  public Liquidacion(Double precioBase) {
     this.precioBase = precioBase;
-    this.tipoPrenda = tipoPrenda;
   }
 
   @Override
@@ -12,8 +10,4 @@ public class Liquidacion implements Prenda{
     return precioBase*0.5;
   }
 
-  @Override
-  public TipoPrenda tipo() {
-    return tipoPrenda;
-  }
 }

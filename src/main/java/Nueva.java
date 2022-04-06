@@ -1,20 +1,12 @@
-public class Nueva implements Prenda {
+public class Nueva implements EstadoPrenda {
   Double precioBase;
-  TipoPrenda tipoPrenda;
 
-  public Nueva(Double precioBase, TipoPrenda tipoPrenda) {
+  public Nueva(Double precioBase) {
     this.precioBase = precioBase;
-    this.tipoPrenda = tipoPrenda;
+
   }
-
-
   @Override
   public Double precio() {
     return precioBase;
-  }
-
-  @Override
-  public TipoPrenda tipo() {
-    return tipoPrenda;
   }
 }
