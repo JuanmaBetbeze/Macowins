@@ -1,3 +1,3 @@
 public interface EstadoPrenda {
-  Double precio();
+  Double precio(Double precioBase);
 }

@@ -1,14 +1,13 @@
 
 public class Promocion implements EstadoPrenda {
-  Double precioBase;
   Double valorFijo;
 
-  public Promocion(Double precioBase, Double valorFijo) {
-    this.precioBase = precioBase;
+  public Promocion(Double valorFijo) {
+
     this.valorFijo = valorFijo;
   }
   @Override
-  public Double precio() {
+  public Double precio(Double precioBase) {
     return precioBase-valorFijo;
   }
 }
